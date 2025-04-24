@@ -52,8 +52,15 @@ img {
     min-height: 100dvh;
 }
 .stremaings {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+}
+@media (min-width: 768px) {
+    .stremaings {
+        display: flex;
+        gap: 2rem;
+    }
 }
 .netflix {
     display: block;

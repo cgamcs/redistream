@@ -1,0 +1,117 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+}
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #fff;
+    background-color: #131313;
+    font-size: 2rem;
+    margin: 0;
+
+    &.overflow-hidden {
+        overflow: hidden;
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    border: 2px solid #fff;
+}
+img {
+    height: 10rem;
+    width: 10rem;
+}
+.black { background-color: #000; border-radius: 1rem; }
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 120rem;
+}
+.center {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+.stremaings {
+    display: flex;
+    gap: 2rem;
+}
+.netflix {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/netflix.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.diseny {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/disney.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.max {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/max.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.prime {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/prime.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paramount {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/paramount.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tvplus {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/tvplus.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

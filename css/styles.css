@@ -62,6 +62,19 @@ img {
         gap: 2rem;
     }
 }
+.youtube {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/youtube.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.youtube:hover {
+    border: 2px solid #ff0000;
+}
 .netflix {
     display: block;
     height: 15rem;
@@ -118,6 +131,16 @@ img {
     width: 15rem;
     border-radius: 1rem;
     background-image: url(../img/tvplus.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.twitch {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url(../img/twitch.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
